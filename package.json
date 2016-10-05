@@ -26,7 +26,8 @@
   },
   "scripts": {
     "pretest": "jscs ./lib/",
-    "test": "mocha tests/*.js"
+    "test": "mocha tests/*.js",
+    "start": "page_token=EAAZAGbnZAlSM8BAMLblEmQY7hQQI5rfmguRmwtkTcZCxhqGLZCCzAtKwvjfXpbWhyAL4sa85S9yfT13NCzDC0BE8W3ekQSLTMlJkY2sq6YYf7M3QN9S0HDZA5olCxT75bXNAZBH8TS0Fa1BL3LNNCFblxzH9H0WLHlwKbsfeJwQwZDZD verify_token=verify node facebook_bot.js"
   },
   "repository": {
     "type": "git",
